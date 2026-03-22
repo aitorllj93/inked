@@ -1,0 +1,35 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "catppuccin-frappe",
+  "title": "Catppuccin Frappe",
+  "description": "Catppuccin Frappe Theme",
+  "files": [
+    {
+      "path": "themes/catppuccin-frappe/colors.css",
+      "content": "@import 'tailwindcss';\n\n@theme {\n  --color-rosewater-50: #f9ebe9;\n  --color-rosewater-100: #f7e7e4;\n  --color-rosewater-200: #f6e3df;\n  --color-rosewater-300: #f5deda;\n  --color-rosewater-400: #f3dad4;\n  --color-rosewater-500: #f2d5cf;\n  --color-rosewater-600: #e7ccc6;\n  --color-rosewater-700: #d6bdb9;\n  --color-rosewater-800: #c3aca9;\n  --color-rosewater-900: #ad9998;\n  --color-rosewater-950: #928284;\n\n  --color-flamingo-50: #f7e2e2;\n  --color-flamingo-100: #f5dbdb;\n  --color-flamingo-200: #f3d4d4;\n  --color-flamingo-300: #f2cdcd;\n  --color-flamingo-400: #f0c6c6;\n  --color-flamingo-500: #eebebe;\n  --color-flamingo-600: #e4b6b6;\n  --color-flamingo-700: #d3a9aa;\n  --color-flamingo-800: #c09a9c;\n  --color-flamingo-900: #aa898d;\n  --color-flamingo-950: #90757b;\n\n  --color-pink-50: #fadff2;\n  --color-pink-100: #f8d8ef;\n  --color-pink-200: #f7d1ed;\n  --color-pink-300: #f6c9ea;\n  --color-pink-400: #f5c1e7;\n  --color-pink-500: #f4b8e4;\n  --color-pink-600: #e9b0da;\n  --color-pink-700: #d8a3cb;\n  --color-pink-800: #c495ba;\n  --color-pink-900: #ae85a6;\n  --color-pink-950: #93728f;\n\n  --color-mauve-50: #e7d6f3;\n  --color-mauve-100: #e1ccf0;\n  --color-mauve-200: #dcc2ee;\n  --color-mauve-300: #d6b7eb;\n  --color-mauve-400: #d0abe9;\n  --color-mauve-500: #ca9ee6;\n  --color-mauve-600: #c197dc;\n  --color-mauve-700: #b38dcd;\n  --color-mauve-800: #a381bb;\n  --color-mauve-900: #9173a8;\n  --color-mauve-950: #7b6490;\n\n  --color-red-50: #f3cdce;\n  --color-red-100: #f1c1c2;\n  --color-red-200: #efb4b5;\n  --color-red-300: #eca5a7;\n  --color-red-400: #ea9597;\n  --color-red-500: #e78284;\n  --color-red-600: #dd7d7f;\n  --color-red-700: #cc7478;\n  --color-red-800: #ba6b70;\n  --color-red-900: #a56168;\n  --color-red-950: #8c555e;\n\n  --color-maroon-50: #f5d4d5;\n  --color-maroon-100: #f3cacb;\n  --color-maroon-200: #f1bfc1;\n  --color-maroon-300: #eeb4b6;\n  --color-maroon-400: #eca7a9;\n  --color-maroon-500: #ea999c;\n  --color-maroon-600: #e09396;\n  --color-maroon-700: #cf888d;\n  --color-maroon-800: #bc7d82;\n  --color-maroon-900: #a77077;\n  --color-maroon-950: #8d6169;\n\n  --color-peach-50: #f7d6ca;\n  --color-peach-100: #f6cdbd;\n  --color-peach-200: #f4c3af;\n  --color-peach-300: #f2b89f;\n  --color-peach-400: #f1ac8c;\n  --color-peach-500: #ef9f76;\n  --color-peach-600: #e59872;\n  --color-peach-700: #d38e6c;\n  --color-peach-800: #c08266;\n  --color-peach-900: #ab745f;\n  --color-peach-950: #906458;\n\n  --color-yellow-50: #f2e6d1;\n  --color-yellow-100: #f0e0c6;\n  --color-yellow-200: #eddabb;\n  --color-yellow-300: #ebd5ae;\n  --color-yellow-400: #e8cea0;\n  --color-yellow-500: #e5c890;\n  --color-yellow-600: #dbbf8b;\n  --color-yellow-700: #cbb182;\n  --color-yellow-800: #b8a279;\n  --color-yellow-900: #a4906f;\n  --color-yellow-950: #8a7b64;\n\n  --color-green-50: #d9e9cf;\n  --color-green-100: #d0e5c4;\n  --color-green-200: #c6e0b7;\n  --color-green-300: #bcdbaa;\n  --color-green-400: #b2d69a;\n  --color-green-500: #a6d189;\n  --color-green-600: #9fc884;\n  --color-green-700: #93b97c;\n  --color-green-800: #87a974;\n  --color-green-900: #78966b;\n  --color-green-950: #678060;\n\n  --color-teal-50: #cde6e2;\n  --color-teal-100: #c1e0db;\n  --color-teal-200: #b4dad4;\n  --color-teal-300: #a5d5cd;\n  --color-teal-400: #94cec6;\n  --color-teal-500: #81c8be;\n  --color-teal-600: #7cbfb6;\n  --color-teal-700: #73b1aa;\n  --color-teal-800: #6aa29c;\n  --color-teal-900: #5f908d;\n  --color-teal-950: #537b7b;\n\n  --color-sky-50: #d4e9ee;\n  --color-sky-100: #cae5ea;\n  --color-sky-200: #bfe0e7;\n  --color-sky-300: #b4dbe3;\n  --color-sky-400: #a7d6df;\n  --color-sky-500: #99d1db;\n  --color-sky-600: #93c8d2;\n  --color-sky-700: #88b9c3;\n  --color-sky-800: #7ca9b3;\n  --color-sky-900: #6f96a0;\n  --color-sky-950: #60808a;\n\n  --color-sapphire-50: #cee3ee;\n  --color-sapphire-100: #c2ddeb;\n  --color-sapphire-200: #b5d6e7;\n  --color-sapphire-300: #a7cfe4;\n  --color-sapphire-400: #97c8e0;\n  --color-sapphire-500: #85c1dc;\n  --color-sapphire-600: #80b9d3;\n  --color-sapphire-700: #77abc4;\n  --color-sapphire-800: #6d9cb4;\n  --color-sapphire-900: #628ba1;\n  --color-sapphire-950: #55778b;\n\n  --color-blue-50: #d0daf7;\n  --color-blue-100: #c5d2f5;\n  --color-blue-200: #b9c9f3;\n  --color-blue-300: #abbff2;\n  --color-blue-400: #9db5f0;\n  --color-blue-500: #8caaee;\n  --color-blue-600: #86a3e4;\n  --color-blue-700: #7d97d4;\n  --color-blue-800: #728ac2;\n  --color-blue-900: #677bad;\n  --color-blue-950: #596a95;\n\n  --color-lavender-50: #e0e0f8;\n  --color-lavender-100: #d9daf7;\n  --color-lavender-200: #d2d2f5;\n  --color-lavender-300: #cacbf4;\n  --color-lavender-400: #c2c3f2;\n  --color-lavender-500: #babbf1;\n  --color-lavender-600: #b2b3e7;\n  --color-lavender-700: #a5a6d6;\n  --color-lavender-800: #9698c4;\n  --color-lavender-900: #8687af;\n  --color-lavender-950: #727496;\n}\n",
+      "type": "registry:component",
+      "target": "themes/catppuccin-frappe/colors.css"
+    }
+  ],
+  "cssVars": {
+    "light": {
+      "background": "#303446",
+      "foreground": "#c6d0f5",
+      "card": "#292c3c",
+      "card-foreground": "#c6d0f5",
+      "popover": "#232634",
+      "popover-foreground": "#c6d0f5",
+      "muted": "#414559",
+      "muted-foreground": "#a5adce",
+      "accent": "#51576d",
+      "accent-foreground": "#c6d0f5",
+      "border": "#626880",
+      "input": "#626880",
+      "ring": "#949cbb"
+    }
+  },
+  "css": {
+    "@import \"./themes/catppuccin-frappe/colors.css\"": {}
+  },
+  "type": "registry:theme"
+}

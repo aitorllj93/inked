@@ -1,0 +1,35 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "flexoki",
+  "title": "Flexoki",
+  "description": "Flexoki Theme",
+  "files": [
+    {
+      "path": "themes/flexoki/colors.css",
+      "content": "@import 'tailwindcss';\n\n@theme {\n  /* Disable default colors to prevent their use; feel free to re-enable as needed. */\n  --color-amber-*: initial;\n  --color-lime-*: initial;\n  --color-emerald-*: initial;\n  --color-teal-*: initial;\n  --color-sky-*: initial;\n  --color-indigo-*: initial;\n  --color-violet-*: initial;\n  --color-fuchsia-*: initial;\n  --color-pink-*: initial;\n  --color-rose-*: initial;\n  --color-slate-*: initial;\n  --color-zinc-*: initial;\n  --color-neutral-*: initial;\n  --color-stone-*: initial;\n\n  /* Specify new default colors. */\n  --color-black:       #100F0F;\n\n  --color-paper:       #FFFCF0;\n  \n  --color-base-50:     #F2F0E5;\n  --color-base-100:    #E6E4D9;\n  --color-base-150:    #DAD8CE;\n  --color-base-200:    #CECDC3;\n  --color-base-300:    #B7B5AC;\n  --color-base-400:    #9F9D96;\n  --color-base-500:    #878580;\n  --color-base-600:    #6F6E69;\n  --color-base-700:    #575653;\n  --color-base-800:    #403E3C;\n  --color-base-850:    #343331;\n  --color-base-900:    #282726;\n  --color-base-950:    #1C1B1A;\n\n  --color-red-50:      #FFE1D5;\n  --color-red-100:     #FFCABB;\n  --color-red-150:     #FDB2A2;\n  --color-red-200:     #F89A8A;\n  --color-red-300:     #E8705F;\n  --color-red-400:     #D14D41;\n  --color-red-500:     #C03E35;\n  --color-red-600:     #AF3029;\n  --color-red-700:     #942822;\n  --color-red-800:     #6C201C;\n  --color-red-850:     #551B18;\n  --color-red-900:     #3E1715;\n  --color-red-950:     #261312;\n\n  --color-orange-50:   #FFE7CE;\n  --color-orange-100:  #FED3AF;\n  --color-orange-150:  #FCC192;\n  --color-orange-200:  #F9AE77;\n  --color-orange-300:  #EC8B49;\n  --color-orange-400:  #DA702C;\n  --color-orange-500:  #CB6120;\n  --color-orange-600:  #BC5215;\n  --color-orange-700:  #9D4310;\n  --color-orange-800:  #71320D;\n  --color-orange-850:  #59290D;\n  --color-orange-900:  #40200D;\n  --color-orange-950:  #27180E;\n\n  --color-yellow-50:   #FAEEC6;\n  --color-yellow-100:  #F6E2A0;\n  --color-yellow-150:  #F1D67E;\n  --color-yellow-200:  #ECCB60;\n  --color-yellow-300:  #DFB431;\n  --color-yellow-400:  #D0A215;\n  --color-yellow-500:  #BE9207;\n  --color-yellow-600:  #AD8301;\n  --color-yellow-700:  #8E6B01;\n  --color-yellow-800:  #664D01;\n  --color-yellow-850:  #503D02;\n  --color-yellow-900:  #3A2D04;\n  --color-yellow-950:  #241E08;\n\n  --color-green-50:    #EDEECF;\n  --color-green-100:   #DDE2B2;\n  --color-green-150:   #CDD597;\n  --color-green-200:   #BEC97E;\n  --color-green-300:   #A0AF54;\n  --color-green-400:   #879A39;\n  --color-green-500:   #768D21;\n  --color-green-600:   #66800B;\n  --color-green-700:   #536907;\n  --color-green-800:   #3D4C07;\n  --color-green-850:   #313D07;\n  --color-green-900:   #252D09;\n  --color-green-950:   #1A1E0C;\n\n  --color-cyan-50:     #DDF1E4;\n  --color-cyan-100:    #BFE8D9;\n  --color-cyan-150:    #A2DECE;\n  --color-cyan-200:    #87D3C3;\n  --color-cyan-300:    #5ABDAC;\n  --color-cyan-400:    #3AA99F;\n  --color-cyan-500:    #2F968D;\n  --color-cyan-600:    #24837B;\n  --color-cyan-700:    #1C6C66;\n  --color-cyan-800:    #164F4A;\n  --color-cyan-850:    #143F3C;\n  --color-cyan-900:    #122F2C;\n  --color-cyan-950:    #101F1D;\n\n  --color-blue-50:     #E1ECEB;\n  --color-blue-100:    #C6DDE8;\n  --color-blue-150:    #ABCFE2;\n  --color-blue-200:    #92BFDB;\n  --color-blue-300:    #66A0C8;\n  --color-blue-400:    #4385BE;\n  --color-blue-500:    #3171B2;\n  --color-blue-600:    #205EA6;\n  --color-blue-700:    #1A4F8C;\n  --color-blue-800:    #163B66;\n  --color-blue-850:    #133051;\n  --color-blue-900:    #12253B;\n  --color-blue-950:    #101A24;\n  \n  --color-purple-50:   #F0EAEC;\n  --color-purple-100:  #E2D9E9;\n  --color-purple-150:  #D3CAE6;\n  --color-purple-200:  #C4B9E0;\n  --color-purple-300:  #A699D0;\n  --color-purple-400:  #8B7EC8;\n  --color-purple-500:  #735EB5;\n  --color-purple-600:  #5E409D;\n  --color-purple-700:  #4F3685;\n  --color-purple-800:  #3C2A62;\n  --color-purple-850:  #31234E;\n  --color-purple-900:  #261C39;\n  --color-purple-950:  #1A1623;\n  \n  --color-magenta-50:  #FEE4E5;\n  --color-magenta-100: #FCCFDA;\n  --color-magenta-150: #F9B9CF;\n  --color-magenta-200: #F4A4C2;\n  --color-magenta-300: #E47DA8;\n  --color-magenta-400: #CE5D97;\n  --color-magenta-500: #B74583;\n  --color-magenta-600: #A02F6F;\n  --color-magenta-700: #87285E;\n  --color-magenta-800: #641F46;\n  --color-magenta-850: #4F1B39;\n  --color-magenta-900: #39172B;\n  --color-magenta-950: #24131D;\n}",
+      "type": "registry:component",
+      "target": "themes/flexoki/colors.css"
+    }
+  ],
+  "cssVars": {
+    "light": {
+      "background": "#FFFCF0",
+      "foreground": "#1C1B1A",
+      "card": "#F2F0E5",
+      "card-foreground": "#1C1B1A",
+      "popover": "#E6E4D9",
+      "popover-foreground": "#1C1B1A",
+      "muted": "#B7B5AC",
+      "muted-foreground": "#575653",
+      "accent": "#DAD8CE",
+      "accent-foreground": "#1C1B1A",
+      "border": "#343331",
+      "input": "#343331",
+      "ring": "#575653"
+    }
+  },
+  "css": {
+    "@import \"./themes/flexoki/colors.css\"": {}
+  },
+  "type": "registry:theme"
+}

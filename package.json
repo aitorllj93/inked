@@ -1,0 +1,13 @@
+{
+  "name": "inked",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "http-serve public",
+    "build": "rm -fr public && shadcn build"
+  },
+  "devDependencies": {
+    "http-serve": "^1.0.1",
+    "shadcn": "^4.1.0"
+  }
+}
